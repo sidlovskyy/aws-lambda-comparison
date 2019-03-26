@@ -7,10 +7,10 @@ namespace PiCalculator
 {
     public class Function
     {
-        private List<double> history = new List<double>();
-
         public double FunctionHandler(string input, ILambdaContext context)
         {
+            var history = new List<double>();
+
             context.Logger.LogLine($"Starting. Iterations: {input}");
 
             var number = int.Parse(input);
