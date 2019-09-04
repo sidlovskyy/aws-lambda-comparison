@@ -10,6 +10,6 @@ Pi number generation on N iterations:
 |Go 1.x        |0.4 ms      |45 Mb      |1.3 ms       |50 Mb        |800 ms      |220 Mb      |
 |Python 3.7    |8 ms        |63 Mb      |190 ms       |67 Mb        |fails       |fails       |
 |Ruby 2.5      |16 ms       |55 Mb      |125 ms       |61 Mb        |11000 ms    |220 Mb      |
-|Java          |
+|Java 8        |
 
 Python 3.7 5kk - TIME 9500 ms, MEM 5kk
